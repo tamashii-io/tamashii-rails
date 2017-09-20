@@ -19,11 +19,11 @@ Gem::Specification.new do |s|
   s.files = Dir['{app,config,db,lib}/**/*', 'Rakefile', 'README.md']
 
   s.add_dependency 'rails', '>= 5.0'
-  s.add_dependency 'tamashii-manager', '~> 0.1'
+  s.add_dependency 'tamashii-manager', '>= 0.2.3'
 
-  s.add_development_dependency "appraisal"
-  s.add_development_dependency "rspec-rails"
-  s.add_development_dependency "simplecov"
-  s.add_development_dependency "coveralls"
-  s.add_development_dependency "codeclimate-test-reporter"
+  s.add_development_dependency 'appraisal'
+  s.add_development_dependency 'rspec-rails'
+  s.add_development_dependency 'simplecov'
+  s.add_development_dependency 'coveralls'
+  s.add_development_dependency 'codeclimate-test-reporter'
 end

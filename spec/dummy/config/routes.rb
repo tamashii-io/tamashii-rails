@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  mount Tamashii::Rails::Engine => "/tamashii-rails"
+  mount Tamashii::Rails::Engine => '/tamashii'
 end

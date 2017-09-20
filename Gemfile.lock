@@ -3,7 +3,7 @@ PATH
   specs:
     tamashii-rails (0.1.0)
       rails (>= 5.0)
-      tamashii-manager (~> 0.1)
+      tamashii-manager (>= 0.2.3)
 
 GEM
   remote: https://rubygems.org/
@@ -149,7 +149,7 @@ GEM
       tamashii-common
       websocket-driver
     tamashii-common (0.1.6)
-    tamashii-manager (0.2.4)
+    tamashii-manager (0.2.5)
       concurrent-ruby
       nio4r
       puma
